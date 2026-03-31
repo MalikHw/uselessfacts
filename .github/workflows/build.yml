@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: "Release tag (e.g. v1.0.0) — leave empty to just build"
+        description: "Release tag
         required: false
         default: ""
       release_notes:
-        description: "Release notes / changelog"
+        description: "Release notes"
         required: false
         default: ""
   push:
