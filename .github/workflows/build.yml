@@ -52,6 +52,9 @@ jobs:
       - uses: geode-sdk/build-geode-mod/combine@main
         id: build
 
+      - name: List build output
+        run: ls -la ${{ steps.build.outputs.build-output }}
+
       - uses: actions/upload-artifact@v4
         with:
           name: Build Output
