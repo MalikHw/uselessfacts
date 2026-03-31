@@ -67,5 +67,5 @@ jobs:
           tag_name: ${{ inputs.release_tag }}
           name: ${{ inputs.release_tag }}
           body: ${{ inputs.release_notes }}
-          files: ${{ steps.build.outputs.build-output }}
+          files: ${{ steps.build.outputs.build-output }}/*.geode
           generate_release_notes: false
