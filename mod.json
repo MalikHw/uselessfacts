@@ -1,0 +1,28 @@
+{
+    "geode": "5.4.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081"
+    },
+    "id": "malikhw47.useless-facts",
+    "name": "Geode Testing",
+    "version": "v1.0.0",
+    "developer": "MalikHw47",
+    "repository": "https://github.com/MalikHw/uselessfacts",
+    "description": "Just adds a button with 'useless facts' cuz why not",
+    "tags": ["joke"],
+    "resources": {
+        "sprites": [
+            "resources/button.png"
+        ]
+    },
+    "issues": {
+        "info": "Report bugs on GitHub or the Geode Discord.",
+        "url": "https://github.com/MalikHw/uselessfacts/issues"
+    },
+    "links": {
+        "homepage": "https://malikhw.github.io",
+        "source": "https://github.com/MalikHw/uselessfacts",
+        "community": "https://discord.gg/G9bZ92eg2n"
+    }
+}
