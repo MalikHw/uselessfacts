@@ -10,7 +10,7 @@
     "developer": "MalikHw47",
     "repository": "https://github.com/MalikHw/uselessfacts",
     "description": "Just adds a button with 'useless facts' cuz why not",
-    "tags": ["joke"],
+    "tags": ["joke", "online"],
     "resources": {
         "sprites": [
             "resources/button.png"
