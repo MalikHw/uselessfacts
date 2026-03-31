@@ -48,7 +48,7 @@ class $modify(UselessFactMod, MenuLayer) {
             [](web::WebResponse res) {
                 if (!res.ok()) {
                     log::error("Web request failed: {}", res.code());
-                    FLAlertLayer::create("Geode Testing", "Failed to fetch a fact :(", "OK")->show();
+                    FLAlertLayer::create("Faild Fact", "Failed to fetch a fact :(", "OK")->show();
                     return;
                 }
 
