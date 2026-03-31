@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: "Release tag
+        description: "Release tag"
         required: false
         default: ""
       release_notes:
