@@ -14,7 +14,7 @@ class $modify(UselessFactMod, MenuLayer) {
         
         auto spr = CCSprite::create("button.png"_spr);
         if (!spr) {
-            log::error("Failed to load button.png — make sure it's in your resources folder!");
+            log::error("Failed to load button.png");
             return true;
         }
         spr->setScale(0.9f);
